@@ -62,56 +62,71 @@
 					</div>
 						<div id="right_content">
 							<div id="rssblock">
-								<p><a href="#"><img src="images/RSS_icon.png" alt="rssicon"></a>
-									<a href="#"><span>Будь всегда в курсе!</span></a>
-									<a href="#"><span>Подпишись на RSS</span></a>
-									<a href="#"><img src="images/feed_icon.png" alt="feedicon"></a>									
-								</p>
+								<p id="rssicon"><a href="#" ><img src="images/RSS_icon.png" alt="rssicon"></a></p>
+									<a href="#"><span id="was">Будь всегда в курсе!</span></a>
+									<a href="#"><span id="writeon">Подпишись на RSS</span></a>
+									<p id="feedico"><a href="#"><img src="images/feed_icon.png" alt="feedicon" ></a></p>									
+								
 									<div id="input_email">
+										<form id="inputemail" action="#" method="POST" name="formemail">
+											<input class="email" type="email" name="input" placeholder="Введите свой e-mail">
+												<input class="go" type="submit" name="Ok" id="ok" value="">
+										
+										</form>
 										
 									</div>
 							</div>
 								<div class="list">
 									<div class="head_list">
+										<p id="categ"><a href="#">Категории</a></p>
+											<div id="polosa_top_right_sidebar"></div>
+										<p class="popular"><a href="#"><span id="textalign">Популярное</span></a></p>									
 									</div>
 										<div class="navigation">
 											<ul>
-												<li><a href="#">WordPress</a></li>
-												<li><a href="#">Блог</a></li>
-												<li><a href="#">Блогосфера</a></li>
-												<li><a href="#">Заработок</a></li>
-												<li><a href="#">Интересно почитать</a></li>
-												<li><a href="#">Личные записи</a></li>
-												<li><a href="#">Мои проекты</a></li>
-												<li><a href="#">Продвижение сайтов</a></li>
-												<li><a href="#">Сатеплиты</a></li>
-												<li><a href="#">Сервисы</a></li>
-												<li><a href="#">Софт</a></li>
+												<a href="#"><li>WordPress</li></a>
+												<a href="#"><li>Блог</li></a>
+												<a href="#"><li>Блогосфера</li></a>
+												<a href="#"><li>Заработок</li></a>
+												<a href="#"><li>Интересно почитать</li></a>
+												<a href="#"><li>Личные записи</li></a>
+												<a href="#"><li>Мои проекты</li></a>
+												<a href="#"><li>Продвижение сайтов</li></a>
+												<a href="#"><li>Сатеплиты</li></a>
+												<a href="#"><li>Сервисы</li></a>
+												<a href="#"><li>Софт</li></a>
 											</ul>
 										</div>	
 								</div>
-									<div class="list">
-										<div class="head_list">
-										</div>
-											<div class="navigation">
-												<ul>
-													<li><a href="#">Январь 2011(3)</a></li>
-													<li><a href="#">Декабрь 2010 (3)</a></li>
-													<li><a href="#">Ноябрь 2010 (4)</a></li>
-													<li><a href="#">Октябрь 2010 (1)</a></li>
-													<li><a href="#">Сентябрь 2010 (2)</a></li>
-													<li><a href="#">Август 2010 (6)</a></li>
-													<li><a href="#">Июль 2010 (1)</a></li>
-													<li><a href="#">Июнь 2010 (2)</a></li>
-												</ul>
-											</div>
+									<div id="search">
+										<p id="searchblock"><input class="search" type="text" name="input" placeholder="Что надо искать?">
+												<input class="search_submit" type="submit" name="Ok" value=""></p>
 									</div>
+										<div class="list">
+											<div class="head_list1">
+												<p><a href="#">Новые посты</a></p>
+												<div id="polosa_bot_right_sidebar"></div>
+												<p class="popular"><a href="#"><span id="textalign_bot">Архив блога</span></a></p>	
+											</div>
+												<div class="navigation">
+													<ul>
+														<a href="#"><li>Январь 2011(3)</li></a>
+														<a href="#"><li>Декабрь 2010 (3)</li></a>
+														<a href="#"><li>Ноябрь 2010 (4)</li></a>
+														<a href="#"><li>Октябрь 2010 (1)</li></a>
+														<a href="#"><li>Сентябрь 2010 (2)</li></a>
+														<a href="#"><li>Август 2010 (6)</li></a>
+														<a href="#"><li>Июль 2010 (1)</li></a>
+														<a href="#"><li>Июнь 2010 (2)</li></a>
+													</ul>
+												</div>
+										</div>
 						</div>
 				</div><!--end content -->
 					<div id="footer">
-						<p>site 2010 - по сегодня. Сделано с умом.</p>
-							<p>Весь контент написан руками на клавиатуре...</p>
-								<p><a href="#"><img src="images/footer_icon.gif" alt="footericon"></a></p>
+						<span>site 2010 - по сегодня. Сделано с умом.<br></span>
+							<span>Весь контент написан руками на клавиатуре...</span>
+								<p id="footericon"><a href="#"><img src="images/footer_icon.gif" alt="footericon"></a></p>
 							
 					</div><!--end fotter -->				
 		</div><!--end wrap -->

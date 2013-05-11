@@ -1,5 +1,4 @@
 @import url("reset.css");
-
 body {
 	background: #fff;
 	font-family: Tahoma,sans-serif;
@@ -9,7 +8,6 @@ body {
 	padding-top: 25px;
 
 }
-
 a {
 	text-decoration: none;
 	outline:none;
@@ -19,9 +17,8 @@ a:hover {
 	text-decoration: underline;
 	outline:none;	
 }
-
 #wrap {
-	width:970px;	
+	width:970px;		
 	margin:0 auto;
 }
 #top_head {
@@ -38,9 +35,7 @@ a:hover {
 	width:182px;
 	margin:25px 0 65px 20px; 
 }
-#bot_head {	
-	
-	position:relative;
+#bot_head {		
 	height:39px;	
 	background-image:url(../images/bg_header.gif);
 	background-repeat: repeat;	
@@ -93,10 +88,17 @@ a:hover {
 	margin-left:407px;	
 }
 #content {
-	height:900px;
+	height:830px;
 	border-left: 1px solid #e1e1e1;
 	border-right: 1px solid #e1e1e1;
 	border-bottom: 1px solid #e1e1e1;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom:10px;
 }
 #left_content {	
 	padding:32px 10px 0 13px;
@@ -106,8 +108,6 @@ a:hover {
 }
 #right_content {		
 	float:right;
-	width:200px;
-	border:1px solid black;
 }
 #left_content h2 a{
 	font-size:14px;
@@ -144,18 +144,19 @@ a:hover {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	width:695px;
+	width:697px;
 	height:30px;
 	background-image:url(../images/bg_bot_head.gif);
 	background-repeat:repeat;
 }
 #read {
 	margin-left:565px;
-	width:128px;
+	width:130px;
 	height:30px;
 	border-left:1px solid #d6d1d1;
 }
 #read a {
+	font-size:12px;
 	height:21px;
 	color:#000;
 	display:block;
@@ -199,8 +200,256 @@ a:hover {
 	border:1px solid #388bc0;
 }
 #tochka {
-	border:none;
+	margin-top:7px;
 }
+#rssblock {
+	
+	width:230px;
+	height:155px;
+	border:1px solid #e3e3e3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:8px 2px 0 0;
+}
+#rssblock a {
+	font-size:11px;
+}
+#rssicon {
+	float:left;
+	height:68px;
+	width:71px;	
+	margin:15px;
+}
+#was {
+	display:block;
+	color:#000;	
+	text-decoration:underline;
+	padding-top:12px;
+}
+#writeon{	
+	display:block;
+	color:#c01d1d;
+	text-decoration:underline;
+	margin:4px 0 4px 0;	
+	text-align: right;
+	padding-right:25px;		
+}
+#feedico {
+	float:right;
+	display:block;
+	margin:13px 23px 0 0;
+	padding-left:12px;
+	width:88px;
+}
+#inputemail {
+	float:right;
+	margin:20px 7px 0 0;
+	width:215px;
+	height:23px;
+	border:1px solid #e1e1e1;
+	border-radius:5px;
+}
+.email {
+	width:180px;
+	padding:2px;
+	background:none;
+    border:none;
+    outline: none;	
+}
+.go {
+	width:23px;
+	background:url(../images/ok_icon.png) no-repeat;
+    border: none;
+    outline: none;
+	cursor:pointer;
+	overflow:hidden;
+}
+.list {	
+	margin-top:5px;
+	border:1px solid #e1e1e1;
+	border-radius:5px;	
+	width:230px;
+	padding-bottom:8px;
+}
+.list ul {
+    list-style:none;
+}
+.list li {
+	background:url(../images/arrow.png) no-repeat left center; 
+    padding-left: 8px; /* the width of your image + some space */
+    margin: 3px 0;
+}
+.navigation a {
+	font-size:12px;
+	display:block;
+	border-bottom:1px dashed #cdcdcd;
+	padding:5px 0 5px 0;
+	margin:0 3px 0 3px;
+	color:#000;
+}
+.navigation a:hover {
+	font-size:12px;
+	display:block;
+	border-bottom:1px dashed #cdcdcd;
+	padding:5px 0 5px 0;
+	margin:0 3px 0 3px;
+	color:#2e85bd;
+}
+.head_list {	
+	min-width:230px;
+	position:absolute;
+	border-bottom:1px solid #e1e1e1;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height:34px;
+	background:url(../images/bg_right_sidebar.gif) repeat;	
+}
+.head_list p {	
+	display:block;
+	width:115px;
+	float:left;	
+	height:34px;
+	
+}
+.head_list a {	
+	color:#000;
+	display:block;
+	padding:10px 0 0 29px;
+	display:block;
+	width:85px;
+	float:left;	
+	height:24px;	
+}
+.head_list p:hover{	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display:block;	
+	float:left;	
+	height:34px;
+	background:url(../images/bg_right_sidebar_active.gif) repeat;
+}
+#polosa_top_right_sidebar {
+	position:absolute;
+	left:114px;
+	width:1px;
+	height:34px;
+	background:url(../images/polosa.gif);	
+}
+#polosa_bot_right_sidebar {
+	position:absolute;
+	left:114px;
+	width:1px;
+	height:34px;
+	background:url(../images/polosa.gif);	
+}
+#textalign {
+	margin-left:-4px;
+}
+#textalign_bot {
+	margin-left:5px;
+}
+.head_list1 {	
+	min-width:230px;
+	position:absolute;
+	border-bottom:1px solid #e1e1e1;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height:34px;
+	background:url(../images/bg_right_sidebar.gif) repeat;	
+}
+.head_list1 p {	
+	display:block;
+	width:115px;
+	float:left;	
+	height:34px;
+	
+}
+.head_list1 a {	
+	color:#000;
+	display:block;
+	padding:10px 0 0 19px;
+	display:block;
+	width:85px;
+	float:left;	
+	height:24px;	
+}
+.head_list1 p:hover{	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display:block;	
+	float:left;	
+	height:34px;
+	background:url(../images/bg_right_sidebar_active.gif) repeat;
+}
+#search {
+	width:230px;
+	height:44px;
+	margin:10px 0;
+	border:1px solid #e1e1e1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.search {
+	padding:2px;
+	width:180px;	
+    border:none;
+    outline: none;	
+}
+#searchblock {
+	border:1px solid #e1e1e1;
+	border-radius:5px;
+	width:212px;
+	height:24px;
+	margin:10px 0 0 10px; 
+}
+.search_submit {
+	border:none;
+	background:url(../images/search_ico.gif);
+	outline: none;
+	cursor:pointer;
+	width:22px;
+	height:20px;
+}
+#footer {
+	font-size:11px;
+	color:#525252;
+}
+#footericon {
+	float:right;
+	margin-top:-20px;
+}
+#footer span {
+	display:block;
+	margin:3px 0 0 30px;
+	padding-top:0px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
